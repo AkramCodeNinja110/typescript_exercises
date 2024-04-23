@@ -1,0 +1,38 @@
+1.Install Node.js, TypeScript and VS Code on your computer.
+
+1 .Install Node.js:
+Download the Node.js installer from the official website: Node.js Download.
+Run the installer and follow the installation instructions.
+After installation, open a terminal (command prompt on Windows or terminal on macOS/Linux) and type node -v to verify that Node.js was installed correctly.
+
+2. Install TypeScript:
+Open a terminal and use npm (Node Package Manager, which comes with Node.js) to install TypeScript globally by running the following command:
+ npm install -g typescript
+ After installation, you can verify the TypeScript installation by running tsc -v in the terminal.
+
+3. Install Visual Studio Code (VS Code):
+Download the Visual Studio Code installer from the official website: VS Code Download.
+Run the installer and follow the installation instructions.
+After installation, open VS Code and install any desired extensions for TypeScript and Node.js development.
+
+4. Verify Installation:
+Open a terminal in VS Code (Terminal > New Terminal) and run node -v, npm -v, and tsc -v to verify that Node.js, npm, and TypeScript are installed correctly.
+
+5. Create a TypeScript Project:
+Create a new directory for your project and open it in VS Code.
+Create a new file with a .ts extension (e.g., app.ts) and write some TypeScript code.
+
+6. Compile and Run the TypeScript Code:
+In the VS Code terminal, run the TypeScript compiler (tsc) to compile your .ts file into JavaScript:
+tsc app.ts
+
+ This will generate a app.js file. You can now run this JavaScript file using Node.js:
+node app.js
+
+You have now installed Node.js, TypeScript, and VS Code on your computer and created a basic TypeScript project. You are ready to start coding with TypeScript and Node.js!
+
+
+
+
+
+
